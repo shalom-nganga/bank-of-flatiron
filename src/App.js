@@ -30,7 +30,7 @@ const App = () => {
   // Update the filtered transactions when the searchTerm changes
   useEffect(() => {
     handleSearch();
-  }, [handleSearch, searchTerm, transactions]);
+  }, [searchTerm, transactions]);
 
   return (
     <div className="App">
