@@ -2,7 +2,7 @@
 
 This repository contains the code for transactions in a bank, a web application that allows users to search and see transactions , It provides a user-friendly interface for searching transactions based on their description.One can also add transactions to the application.
 
-# Author
+# Developer
 Author: Shalom Nganga Email: minnomacharia@gmail.com.
 
 # Table of Contents
