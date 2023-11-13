@@ -30,11 +30,11 @@ table {
 th,
 td {
   padding: 10px;
-  border-bottom: 1px solid #1024b4;
+ 
 }
 
 thead th {
-  background-color: #20afc9;
+
   font-weight: bold;
   text-align: left;
 }
