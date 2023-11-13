@@ -99,11 +99,19 @@
       "id": 14
     },
     {
-      "date": "",
-      "description": "",
-      "category": "",
-      "amount": "",
+      "date": "2022-07-09",
+      "description": "car rentals",
+      "category": "expenses",
+      "amount": "10000",
       "id": 15
+    },
+    {
+      "date": "2023-05-07",
+      "description": "hospital bill",
+      "category": "bills",
+      "amount": "5000",
+      "id": 16
     }
+   
   ]
 }

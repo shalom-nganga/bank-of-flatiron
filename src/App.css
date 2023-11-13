@@ -83,7 +83,7 @@ input[type="text"] {
 }
 
 .form-container button {
-  background-color: #4caf50;
+
   color: white;
   padding: 10px 20px;
   border: none;
@@ -91,12 +91,6 @@ input[type="text"] {
   cursor: pointer;
 }
 
-.form-container button:hover {
-  background-color: #45a049;
-}
 
-footer {
-  background-color: #333;
-  color: white;
-  padding: 10px;
-}
+
+
