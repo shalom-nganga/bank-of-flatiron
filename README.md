@@ -30,5 +30,7 @@ To search for transaction details:
 
 Enter a description on the tab below the Transaction heading in the search by description field. The handlesearch function fetches the character data from the server based on the provided description. The showing function displays the searched details in the webpage.
 
+One can also add data to the form by using the add transaction form at the bottom of the page.
+
 # License
 The Bank Of Flatiron code is available under the MIT License. Feel free to modify and use it for your own projects.
