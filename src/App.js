@@ -3,6 +3,8 @@ import './App.css';
 import TransactionList from './TransactionList';
 import TransactionForm from './TransactionForm';
 
+const API_URL = 'https://my-json-server.typicode.com/shalom.nganga/bank-of-flatiron/transactions';
+
 const App = () => {
   // Declare the state variables for transactions and filteredTransactions
   const [transactions, setTransactions] = useState([]);
@@ -30,7 +32,7 @@ const App = () => {
   // Update the filtered transactions when the searchTerm changes
   useEffect(() => {
     handleSearch();
-  }, [searchTerm, transactions]);
+  },[searchTerm, transactions]);
 
   return (
     <div className="App">
