@@ -14,7 +14,7 @@ const App = () => {
   // Make sure to fetch the data and update the transactions state accordingly.
   useEffect(() => {
     // Fetch the data from the file
-    fetch('https://my-json-server.typicode.com/shalom.nganga/bank-of-flatiron/transactions') // Replace the URL with the correct path to your db.json file
+    fetch('https://my-json-server.typicode.com/shalom-nganga/bank-of-flatiron/transactions') // Replace the URL with the correct path to your db.json file
       .then((response) => response.json())
       .then((data) => setTransactions(data))
       .catch((error) => console.error('Error fetching data:', error));
