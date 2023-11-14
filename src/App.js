@@ -3,7 +3,6 @@ import './App.css';
 import TransactionList from './TransactionList';
 import TransactionForm from './TransactionForm';
 
-const API_URL = 'https://my-json-server.typicode.com/shalom.nganga/bank-of-flatiron/transactions';
 
 const App = () => {
   // Declare the state variables for transactions and filteredTransactions
@@ -15,7 +14,7 @@ const App = () => {
   // Make sure to fetch the data and update the transactions state accordingly.
   useEffect(() => {
     // Fetch the data from the file
-    fetch('http://localhost:8000/transactions') // Replace the URL with the correct path to your db.json file
+    fetch('https://my-json-server.typicode.com/shalom.nganga/bank-of-flatiron/transactions') // Replace the URL with the correct path to your db.json file
       .then((response) => response.json())
       .then((data) => setTransactions(data))
       .catch((error) => console.error('Error fetching data:', error));
